@@ -1,0 +1,440 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ClassDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "MySuperClass",
+          "range": [
+            66,
+            78
+          ],
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 21
+            },
+            "end": {
+              "line": 4,
+              "column": 33
+            }
+          }
+        },
+        "superClass": null,
+        "body": {
+          "type": "ClassBody",
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "constructor",
+                "range": [
+                  154,
+                  165
+                ],
+                "loc": {
+                  "start": {
+                    "line": 8,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 8,
+                    "column": 15
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [],
+                  "range": [
+                    168,
+                    175
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 8,
+                      "column": 18
+                    },
+                    "end": {
+                      "line": 9,
+                      "column": 5
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  165,
+                  175
+                ],
+                "loc": {
+                  "start": {
+                    "line": 8,
+                    "column": 15
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 5
+                  }
+                }
+              },
+              "kind": "constructor",
+              "computed": false,
+              "range": [
+                154,
+                175
+              ],
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 4
+                },
+                "end": {
+                  "line": 9,
+                  "column": 5
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\n     * this is MySuperClass constructor description.\n     ",
+                  "range": [
+                    85,
+                    149
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 7
+                    }
+                  }
+                }
+              ],
+              "trailingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\n     * this is sayHello description.\n     * @returns {string} this is return description.\n     ",
+                  "range": [
+                    181,
+                    282
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 11,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 14,
+                      "column": 7
+                    }
+                  }
+                }
+              ],
+              "static": false
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "sayHello",
+                "range": [
+                  287,
+                  295
+                ],
+                "loc": {
+                  "start": {
+                    "line": 15,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 15,
+                    "column": 12
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "argument": {
+                        "type": "Literal",
+                        "value": "Hello!",
+                        "raw": "'Hello!'",
+                        "range": [
+                          314,
+                          322
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 16,
+                            "column": 15
+                          },
+                          "end": {
+                            "line": 16,
+                            "column": 23
+                          }
+                        }
+                      },
+                      "range": [
+                        307,
+                        323
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 16,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 16,
+                          "column": 24
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    297,
+                    329
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 15,
+                      "column": 14
+                    },
+                    "end": {
+                      "line": 17,
+                      "column": 5
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  295,
+                  329
+                ],
+                "loc": {
+                  "start": {
+                    "line": 15,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 17,
+                    "column": 5
+                  }
+                }
+              },
+              "kind": "method",
+              "computed": false,
+              "range": [
+                287,
+                329
+              ],
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 4
+                },
+                "end": {
+                  "line": 17,
+                  "column": 5
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\n     * this is sayHello description.\n     * @returns {string} this is return description.\n     ",
+                  "range": [
+                    181,
+                    282
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 11,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 14,
+                      "column": 7
+                    }
+                  }
+                }
+              ],
+              "static": false
+            }
+          ],
+          "range": [
+            79,
+            331
+          ],
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 34
+            },
+            "end": {
+              "line": 18,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          60,
+          331
+        ],
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 15
+          },
+          "end": {
+            "line": 18,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * this is MySuperClass description.\n ",
+            "range": [
+              0,
+              44
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 3,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "range": [
+        45,
+        331
+      ],
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 1
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * this is MySuperClass description.\n ",
+          "range": [
+            0,
+            44
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 3,
+              "column": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    45,
+    331
+  ],
+  "loc": {
+    "start": {
+      "line": 4,
+      "column": 0
+    },
+    "end": {
+      "line": 18,
+      "column": 1
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * this is MySuperClass description.\n ",
+      "range": [
+        0,
+        44
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n     * this is MySuperClass constructor description.\n     ",
+      "range": [
+        85,
+        149
+      ],
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+          "line": 7,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n     * this is sayHello description.\n     * @returns {string} this is return description.\n     ",
+      "range": [
+        181,
+        282
+      ],
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 4
+        },
+        "end": {
+          "line": 14,
+          "column": 7
+        }
+      }
+    }
+  ]
+}
